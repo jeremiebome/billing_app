@@ -3,6 +3,18 @@
 
 # Ignorer le répertoire des dépendances  
 node_modules/  
+node_modules
+/node_modules
+/node_modules/
 
 # Ignorer les fichiers temporaires  
 temp/
+
+# Ignorer les fichiers système
+.DS_Store
+.env
+.env.local
+
+# Ignorer les fichiers de build
+/dist
+/build
